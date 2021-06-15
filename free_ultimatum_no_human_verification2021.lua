@@ -1,0 +1,8 @@
+gg.searchNumber(';ultimatum',gg.TYPE_WORD)
+gg.getResults(999999)
+gg.editAll('1',gg.TYPE_WORD)
+gg.alert('go to armory fast')
+gg.sleep('5000')
+gg.editAll(';ultimatum',gg.TYPE_WORD)
+gg.alert('now double click on the bugged weapon and buy it')
+gg.clearResults()

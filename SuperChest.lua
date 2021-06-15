@@ -1,0 +1,8 @@
+gg.alert('cancel at 20-30%')
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("1000X4", gg.TYPE_DWORD)
+    gg.getResults(999999)
+    gg.refineNumber('-195000000~~195000000',gg.TYPE_DWORD)
+    gg.getResults(999999)
+    gg.editAll("0X4", gg.TYPE_DWORD)
+    gg.clearResults()
