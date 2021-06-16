@@ -1,0 +1,6 @@
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('0X4',gg.TYPE_DWORD)
+gg.refineNumber('-195000000~195000000',gg.TYPE_DWORD,false,gg.SIGN_NOT_EQUAL)
+gg.getResults(2000)
+gg.editAll('250X4',gg.TYPE_DWORD)
+gg.alert('go to craft section and you should see that you have 250 parts for every craftable gun')
